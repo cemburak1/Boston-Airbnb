@@ -1,4 +1,8 @@
 # Boston-Airbnb
+## Medium post:
+https://medium.com/@591480co/boston-airbnb-data-analysis-b7dded7e523b
+
+
 
 ## Main Questions Answered:
 - What is the price range of listings?
