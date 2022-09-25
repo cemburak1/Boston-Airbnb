@@ -16,13 +16,22 @@ https://medium.com/@591480co/boston-airbnb-data-analysis-b7dded7e523b
 The goal of this project is to understand the underlying trends of Airbnb data in Boston by analysing average prices for each neighbourhood, proportion of amenities and determinants of pricing.
 
 ## Data Understanding
-Histograms, ranges and number of data points are observed.
+- Histograms of the price and the price per accommodate.
+- Percentage of null values in numerical and categorical features.
+- Histograms of numerical features.
+- Number of data points per category in categorical features.
+- Percentage of properties that offer each amenity.
 
 ## Data Preperation
-Data is cleaned and prepared through applying one-hot encoding, imputing data, elimination of certain rows and variables.
+- Creation of the variable price for accommodation.
+- Elimination of variables with more than 95% of null values.
+- Filling in the null values with the median in numerical characteristics.
+- Filling in the null values with the mode in categorical characteristics.
+- Creation of dummy variables for all categorical characteristics.
+- Detection and elimination of outliers with Isolation Forest.
 
 ## Modelling
-Linear regression and random forest is applied
+Linear regression & random forest are applied in order to find out the pricing determinants of Boston 
 
 ## Evaluation
 RMSE is the evaluation metric
